@@ -1,10 +1,11 @@
-import DrinkItem from '../drinkItem/drinkItem';
+import DrinkItem from '../DrinkItem/DrinkItem';
 import React from 'react';
+import './DrinkList.scss'
 
-const DrinkList = () => {
+const DrinkList = (props) => {
     return (
         <div className="drinkList">
-            <DrinkItem/>
+                <DrinkItem/>
         </div>
     );
 };

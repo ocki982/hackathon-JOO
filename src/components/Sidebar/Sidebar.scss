@@ -1,0 +1,22 @@
+.sidebar{
+    background-color: rgb(220, 235, 240);
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vw;
+
+    &__image{
+        margin: 3rem 1rem 1rem 1rem;
+        max-width: 12rem;
+        border-radius: 50%;
+    }
+
+    &__title{
+        color: seagreen;
+    }
+
+    &__text{
+        font-size: 0.9rem;
+    }
+}

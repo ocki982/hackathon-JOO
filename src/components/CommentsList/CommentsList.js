@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommentsList = () => {
     return (
-        <div>
+        <div className="comments__comments">
             <div className="comments__info">
                 <p className="comments__name">Name</p>
                 <p className="comments__date">Date</p>

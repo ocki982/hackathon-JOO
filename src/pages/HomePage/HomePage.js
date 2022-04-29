@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import Hero from '../../components/Hero/Hero';
-import {BrowserRouter as Router, Switch} from 'react-router-dom';
+import DrinkDetails from '../../components/DrinkDetails/DrinkDetails';
+// import Hero from '../../components/Hero/Hero';
+import './HomePage.scss'
 
 class HomePage extends Component {
     render() {
         return (
         <div>
-            <Router>
-                <Switch>
-                    <Hero/>
-                </Switch>
-            </Router>
+            <DrinkDetails/>
         </div>
         );
     }

@@ -1,21 +1,14 @@
 import React from 'react';
-import DrinkItem from './DrinkItem';
-import "./DrinkItem.scss";
+import './Sidebar.scss'
+import City from '../../assets/images/schnebly-winery.jpg'
 
-function Sidebar ({drinks, drink, filtereddrinks}) {
+const Sidebar = () => {
     return (
         <div className="sidebar">
-            <img className="sidebar__image" alt="city"></img>
+            <img className="sidebar__image" src={City} alt="city"></img>
+            <p className="sidebar__text">Welcome to,</p>
             <h1 className="sidebar__title">City Name</h1>
             <p className="sidebar__text">Some text about the city</p>
-            {drinks.map((drink) => (
-                <DrinkItem
-                    key={drink.id}
-                    id={drink.id}
-                    name={drink.name}
-                    price={drink.price}
-                    image={drink.image} />
-            ))}
         </div>
     );
 };
