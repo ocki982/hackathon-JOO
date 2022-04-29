@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
-import Miami from './Miami/Miami';
-import Mendoza from '../Mendoza';
-import Temecula from '../Temecula/Temecula';
-import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Switch} from 'react-router-dom';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 
 class HomePage extends Component {
     render() {
         return (
         <div>
+            <Header/>
             <Router>
-            <Switch>
-                <Route />
-                <Temecula />
-                <Mendoza />
-            </Switch>
+                <Switch>
+
+                </Switch>
             </Router>
+            <Footer/>
         </div>
         );
     }

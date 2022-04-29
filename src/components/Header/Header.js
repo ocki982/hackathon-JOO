@@ -1,14 +1,17 @@
 import React from 'react';
+import './Header.scss'
+import Avatar from '../../assets/images/avatar.jpg'
+import Logo from '../../assets/images/wine-logo.png'
 
 const Header = () => {
     return (
         <div className="header">
-            <img className ="header__logo" alt="logo"></img>
-            <div className="header__fill-bar"></div>
-            <nav>
-                <img className="header__avatar" alt="avatar"></img>
+            <img className ="header__logo" src={Logo} alt="logo"></img>
+            <nav className="header__nav">
+                <div className="header__fill-bar"></div>
+                <img className="header__avatar" src={Avatar} alt="avatar"></img>
                 <ul className="header__list">
-                    <li className="header__item">Home</li>
+                    <li className="header__item header__border">Home</li>
                     <li className="header__item">Name</li>
                 </ul>
             </nav>
