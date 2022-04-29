@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Live-Laugh_Liverfailure
+This SPA will display three major cities with their local breweries or bars. 
+Each bar or brewery will list the menus with drinks and alchol 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Cities with wineries/ breweries/ bars
+# name: Ferllen Winery
+address: Mendoza, Argentina
+tel: +54 261 257-7499
+description: Ferllen Winery is a compilation of well-balanced varietals from Valle de Uco Mendoza, Argentina merged into the production of traditional wines, varietals representative such as Malbec and Torrontes and special edition coupage. Located in Mendoza, Argentina, in one of the best wine regions in the world, sheltered by the monumental mountain range of the Andes and surrounded by 30 hectares of Malbec, our winery has been created. A family owned winery with centenary tradition making wine in Argentina.
 
-In the project directory, you can run:
+drink: Grand Reserve Malbec - Red wine
+Alcohol%: 14
+price: $75.00
 
-### `npm start`
+drink: Reserve Cabernet - Red wine
+Alcohol%: 14.9
+price: $29.00
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+drink: Chardonnay Classic - White wine
+Alcohol%: 11.5
+price: $19.95
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+drink: Villa Ferllen Cabernet - Red wine
+Alcohol%: 11.5
+price: $19.95
 
-### `npm test`
+drink: Torrontes Classic - White wine
+Alcohol%: 12.5
+price: $19.95
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+# name: WINE 41
+address: 12401 SW 134th Ct, Unit 4, Miami, FL 33186
+tel: 786 429 3957
+description: Wine 41 is a unique winery in Miami offering plenty of unique wine to taste, and adventures to be had. When you experience Wine 41, you’ll have the option of ordering wine ready to go out with you on your next boating excursion with Pier W41 so that you can elevate the luxury of your Miami vacation. Wine 41 also offers wines from all over the world, so that you can get a taste of Spain, Italy, California, New Zealand, and more when you visit this unique winery in Miami, which should inspire you for future travels.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+drink: La Nit de les Garnatxes Limestone Granache 2015 - Red Wine - Garnacha
+Alcohol%: 12.5
+price: $24.50
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+drink: Costers del Gravet Blend 2014 - Red Wine - Garnacha
+Alcohol%: 14
+price:$31.50
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+drink: Cabrida Garnacha - Red Wines - Red Blend
+Alcohol%: 12
+price: $39.50
 
-### `npm run eject`
+drink: Viña Alicia Paso de Piedra Malbec - Red Wines - Malbec
+Alcohol%: 13.9
+price: $22.95
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+drink: Viña Alicia Morena Cabernet Sauvignon - Red Wines - Red Wines
+Alcohol%: 12.5
+price: $34.95
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# name: Ponte Winery
+address: 5053 Rancho California Rd / Temecula, CA 92591
+tel: (951) 694-8855
+description: Ponte’s pretty tasting room and adjacent hotel are set on a 300-acre vineyard in the heart of Temecula wine country. Grape growers in the region since 1984, the Ponte family are considered boutique producers with a classic line of single grape varieties — cabernet sauvignon, chardonnay, sangiovese — plus blends, bottles of bubbly, and dessert wines like sweet white moscato.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+drink: Angry Wife Red - Medium-Bodied Red Wine | Bordeaux Style | Balanced Acidity
+Alcohol%: 14.5
+price: $55.00  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+drink: Cabernet Franc - Full-Bodied Red Wine | Smooth | Lingering Finish
+Alcohol%: 13.9
+price: $60.00  
 
-## Learn More
+drink: Beverino Bianco - Medium-Bodied White Wine | Balanced Sweetness | Lush Smooth finish
+Alcohol%: 13
+price: $38.00  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+drink: Moscato - Medium-Bodied Sparkling White Wine | Slightly Sweet | Honeysuckle & Mango
+Alcohol%: 12.5
+price: $34.00 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+drink: Sparkling Rosé - Sweet Bubbly | Candied Strawberry | Pear & Golden Apple
+Alcohol%: 13
+price: $38.00
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

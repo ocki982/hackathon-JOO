@@ -1,0 +1,19 @@
+import React from 'react';
+import CommentsList from '../commentsList/commentsList';
+
+const CommentsForm = () => {
+    return (
+        <div>
+            <form className="comments__form">
+                <div className="comments__box">
+                    <label className="comments__label" htmlFor="comment" id="comment">Comments</label>
+                    <input className="comments__input" name="comment" id="comment-form" placeholder="Add a new comment" required></input>
+                </div>
+                <button className="comments_button">Submit</button>
+            </form>
+            <CommentsList/>
+        </div>
+    );
+};
+
+export default CommentsForm;
