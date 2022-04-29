@@ -13,7 +13,9 @@ function App() {
       <Header/>          
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route exact path="/:city" component={CityPage} />
+          <Route exact path="/Mendoza" component={CityPage}/>
+          <Route exact path="/Temecula" component={CityPage}/>
+          <Route exact path="/Miami" component={CityPage}/>
           <Route exact path="/drink/:id" component={DrinkPage} />
         </Switch>
       <Footer/>

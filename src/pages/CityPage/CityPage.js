@@ -4,6 +4,8 @@ import Sidebar from '../../components/Sidebar/Sidebar';
 
 
 class CityPage extends Component {
+
+
     render() {
         return (
             <div>

@@ -1,3 +1,6 @@
+@use '../../styles/partials/typography' as *;
+
+
 .header{
     background-color: seagreen;
     display: flex;
@@ -44,6 +47,11 @@
         font-size: 1.2rem;
         font-weight: 500;
         color: white;
+    }
+
+    &__slogan{
+        font-family: 'BackSlash';
+        font-size: 1.5rem;
     }
 
     &__border{

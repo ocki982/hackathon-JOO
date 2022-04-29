@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="header">
             <img className ="header__logo" src={Logo} alt="logo"></img>
-            <p className='header__item'>Live, Laugh. Liver, Failure.</p>
+            <p className='header__item header__slogan'>Live, Laugh, Liver-Failure</p>
             <nav className="header__nav">
                 <div className="header__fill-bar"></div>
                 <img className="header__avatar" src={Avatar} alt="avatar"></img>
