@@ -1,5 +1,6 @@
 import React from 'react';
-import CommentsList from '../commentsList/commentsList';
+import CommentsList from '../CommentsList/CommentsList';
+import './CommentsForm.scss';
 
 const CommentsForm = () => {
     return (

@@ -6,7 +6,6 @@ const Cities = () => {
     return (
         <div className="cities">
             <img className="cities__image" alt="cities" src={citiesBottle}/>
-            <img></img>
         </div>
     );
 };
