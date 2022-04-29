@@ -1,0 +1,11 @@
+.cities{
+    display: flex;
+    justify-content: center;
+    &__image{
+        height: 30vw;
+        min-height: 18rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}

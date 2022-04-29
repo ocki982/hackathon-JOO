@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Miami from './Miami/Miami';
-import Mendoza from '../Mendoza';
-import Temecula from '../Temecula/Temecula';
+import Hero from '../../components/Hero/Hero';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 
 class HomePage extends Component {
@@ -10,9 +8,7 @@ class HomePage extends Component {
         <div>
             <Router>
             <Switch>
-                <Route />
-                <Temecula />
-                <Mendoza />
+                <Hero />
             </Switch>
             </Router>
         </div>
