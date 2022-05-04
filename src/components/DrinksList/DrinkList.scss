@@ -1,0 +1,24 @@
+.drinkItem{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    height: 40vw;
+
+    &__box{
+        margin: 0 1rem;
+    }
+
+    &__title{
+        color: seagreen;
+        font-size: 1rem;
+    }
+
+    &__image{
+        width: 7rem;
+        height: 7rem;
+        object-fit: cover;
+        border-radius: 15px;
+
+    }
+}

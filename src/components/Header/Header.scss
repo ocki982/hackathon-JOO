@@ -1,0 +1,62 @@
+@use '../../styles/partials/typography' as *;
+
+
+.header{
+    background-color: seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    &__logo{
+        max-width: 2.5rem;
+        max-height: 2.5rem;
+    }
+
+    &__avatar{
+        max-width: 2.5rem;
+        max-height: 2.5rem;
+        border-radius: 50%;
+    }
+
+    &__fill-bar{
+        height: 0.5rem;
+        width: 20rem;
+        background-color: rgb(217, 245, 175);
+        border-radius: 7px;
+        border: 2px solid darkgreen;
+        margin-right: 2rem;
+    }
+
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+
+    &__list{
+        padding-left: 1rem;
+        margin: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+
+    &__item{
+        padding-right: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: white;
+    }
+
+    &__slogan{
+        font-family: 'BackSlash';
+        font-size: 1.5rem;
+    }
+
+    &__border{
+        border-right: solid 2px white;
+    }
+
+
+}

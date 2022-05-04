@@ -1,0 +1,35 @@
+.drinkDetails{
+    height: 60vw;
+    padding: 5rem;
+
+    &__flex{
+        display: flex;
+    }
+
+    &__box{
+        padding: 5rem;
+    }
+
+    &__image{
+        border-radius: 10px;
+        width: 17rem;
+    }
+
+    &__text{
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: seagreen;
+    }
+
+    &__button{
+        margin-top: 1rem;
+        height: 2rem;
+        width: 5rem;
+        background-color: seagreen;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+}
